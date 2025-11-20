@@ -1,0 +1,1090 @@
+@media screen and (min-width: 1700px) {
+    html {
+        font-size: calc(100vw * 16/1728);
+    }
+}
+@media screen and (min-width: 768px) {
+    html {
+    font-size: calc(100vw * 10/1728);
+    }
+    .fz-container {
+        max-width: 98rem;
+    }
+    p {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+    /* Badge */
+    .fz-badge {
+        width: 8.75rem;
+        height: 8.75rem;
+    }
+    div.fz-badge img {
+        position: absolute;
+        width: 100%;
+        height: auto;
+    }
+    div.fz-badge p {
+        font-size: 1.375rem;
+        line-height: 1.75rem;
+    }
+    /* -------------------------------BUTTON STYLES STARTS HERE------------------------------- */
+    .fz-blue-btn, .fz-grey-btn {
+        font-size: 1.625rem;
+        line-height: 2.438rem;
+        padding: 1.125rem 2.5rem;
+    }
+    .fz-white-btn {
+        font-size: 1.375rem;
+        line-height: 2.063rem;
+        padding: 0.969rem 2.5rem;
+    }
+    .fz-blue-line-btn {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        padding: 1.125rem 5.438rem;
+    }
+    .fz-red-line-btn {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        padding: 0.813rem 1.25rem;    
+    }
+    .fz-black-line-btn {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        padding: 0.813rem 1.25rem;     
+    }
+    /* -------------------------------HEADER STYLES STARTS HERE------------------------------- */
+    .fz-header-container {
+        padding: 3.75rem 0 1.875rem;
+    }
+    .fz-header-mob {
+        display: none;
+    }
+    .fz-header-desk {
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+    }
+    .fz-header-desk nav ul {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        gap: 2.5rem;
+    }
+    .fz-header-desk nav ul li {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.375rem;
+        line-height: 2.063rem;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    .fz-header-logo-wrap {
+        width: 11rem;
+    }
+    .fz-header-desk-search {
+        width: 19.313rem;
+        height: 3.75rem;
+        box-shadow: 0 0 0.5rem 0 #00000040;
+        background-color: #ffffff;
+        border-radius: 16.438rem;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        gap: 0.625rem;
+        padding: 0.938rem 1.25rem;
+        flex-direction: row-reverse;
+    }
+    .fz-header-desk-search svg {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+    .fz-header-desk-search input {
+        width: 100%;
+        border: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        color: rgba(0, 0, 0, 0.7);
+    }
+    .fz-header-desk-search input::placeholder {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        color: rgba(0, 0, 0, 0.7);      
+    }
+    .fz-header-banner {
+        padding: 0.75rem 0;
+    }
+    .fz-header-banner p {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        text-align: center;
+    }
+    .fz-header-desk-items {
+        display: flex;
+        align-items: center;
+        gap: 1.25rem;
+    }
+    .fz-header-desk-icons {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .fz-header-desk-icons div {
+        width: 3.75rem;
+        height: 3.75rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #FFFFFF;
+        box-shadow: 0 0 0.429rem 0 #00000040;
+        border-radius: 50%;
+    }
+    .fz-header-desk-icons div svg {
+        width: 2rem;
+        height: 2rem;
+    }
+    .fz-header-desk-icons div a {
+        color: #000000;
+    }
+    /* -------------------------------FOOTER STYLES STARTS HERE------------------------------- */
+    .fz-footer-main {
+        padding: 3.816rem 0 3.425rem;
+    }
+    .fz-footer-main-wrap {
+        flex-direction: row;
+        gap: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .fz-footer-logo {
+        width: 17.125rem;
+    }
+    .fz-footer-main-wraps {
+        flex-direction: row;
+        gap: 10.494rem;
+    }
+    .fz-footer-links {
+       gap: 1.125rem;
+    }
+    .fz-footer-links h4 {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        margin-bottom: 1.125rem;
+    }
+    .fz-footer-socials {
+        gap: 2.25rem;
+    }
+    .fz-footer-row {
+        gap: 1.125rem;
+    }
+    .fz-footer-row svg {
+        width: 2rem;
+    }
+    .fz-footer-rows {
+        gap: 1.25rem;
+    }
+    .fz-footer-icons {
+        margin-top: 1.125rem;
+        gap: 0.938rem;
+    }
+    .fz-footer-icons-wrap h4 {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+    .fz-footer-icons-wrap svg {
+        width: 2rem;
+        height: 2rem;
+    }
+    .fz-footer-sub-wrap {
+        padding: 1.125rem 0 0;
+        margin-top: 3.203rem;
+    }
+    .fz-footer-sub-wrap > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .fz-footer-sub-links {
+        display: flex;
+        flex-direction: row;
+        gap: 1.8rem;
+    }
+    .fz-footer-sub-wrap p {
+        font-size: 1.125rem;
+        line-height: 1.688rem;
+    }
+    .fz-footer-sub-items {    
+        margin-top: 0;
+    }
+    .fz-footer-sub-links p {
+        display: flex;
+        align-items: center;
+        gap: 0.313rem;
+    }
+    /* -------------------------------HOME CTA STYLES STARTS HERE------------------------------- */
+    .fz-home-cta-wrap {
+        padding: 3.5rem 0 5.625rem 3.188rem;
+        margin-bottom: 6.25rem;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+    .fz-home-cta-wrap {
+        flex-direction: row;
+        gap: 0;
+    }
+    .fz-home-cta-items h2 {
+        font-size: 2.875rem;
+        line-height: 4.313rem;
+    }
+    .fz-home-cta-items p {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .fz-home-cta-wrap img {
+        width: auto;
+        height: 100%;
+        border-radius: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    /* -------------------------------HOME CATEGORY STYLES STARTS HERE------------------------------- */
+    section.fz-home-category-grp {
+        margin-bottom: 6.25rem;
+    }
+    .fz-home-category-title h2 {
+        font-size: 2.5rem;
+        line-height: 3.75rem;
+    }
+    .fz-home-category-title p {
+        font-size: 1.625rem;
+        line-height: 2.438rem;
+    }
+    .fz-home-category-title {
+        margin-bottom: 2.5rem;
+    }
+    .fz-home-category-wrap {
+        width: 16.75rem;
+        height: 16.75rem;
+    }
+    .fz-home-category-items {
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 3.563rem;
+    }
+    .fz-home-category-item {
+        gap: 1.25rem;
+    }
+    .fz-home-category-wrap img {
+        width: 12.5rem;
+        height: 12.5rem;
+    }
+    .fz-home-category-item p {
+        font-size: 1.625rem;
+        line-height: 2.438rem;
+    }
+    /* -------------------------------HOME HERO STYLES STARTS HERE------------------------------- */
+    section.fz-home-hero-grp {
+        margin-bottom: 6.25rem;
+    }
+    section.fz-home-hero-grp .fz-home-her-grp-items {
+        padding: 3.438rem 0 8.563rem 5rem;
+        display: grid;
+        grid-template-columns: 41.813rem 47.657rem;
+        justify-content: space-between;
+        height: 32.375rem;
+        overflow: hidden;
+    }
+    section.fz-home-hero-grp .carousel-indicators {
+        bottom: 2.5rem;
+    }
+    .fz-home-her-grp-text h1 {
+        font-size: 3rem;
+        line-height: 4.5rem;
+        margin-bottom: 0.375rem;
+    }
+    .fz-home-her-grp-text p {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        margin-bottom: 2.5rem;
+    }
+    section.fz-home-hero-grp img {
+        width: 47.657rem;
+        height: 38.907rem;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -1.438rem;
+    }
+    /* -------------------------------HOME OFFER STYLES STARTS HERE------------------------------- */
+    .fz-home-offers-section {
+        margin-bottom: 7.5rem;
+        max-width: 98rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fz-home-offers-title {
+        margin-bottom: 2.5rem;
+    }
+    .fz-home-offers-title h2 {
+        font-size: 2.5rem;
+        line-height: 3.75rem;
+    }
+    .fz-home-offers-buttons {
+        gap: 1.25rem;
+    }
+    .fz-home-offers-button {
+        width: 4rem;
+        height: 4rem;
+    }
+    .fz-home-offers-button img {
+        width: 1.943rem;
+        height: 1.943rem;
+    }
+    .fz-home-offers-items {
+        gap: 3.75rem;
+    }
+    .fz-product-card {
+        width: 28.125rem;
+    }
+    .fz-product-card .fz-badge {
+        top: 1.938rem;
+        right: unset;
+        left: 1.938rem;
+    }
+    .fz-product-card figure {
+        margin-bottom: 2.5rem;
+        width: 28.125rem;
+        height: 31.188rem;
+        padding: 3.75rem 2.25rem 3.688rem 2.125rem;
+    }
+    .fz-product-card figure img {
+        width: 23.75rem;
+        height: 23.75rem;
+    }
+    .fz-product-card > p {
+        font-size: 1.625rem;
+        line-height: 1.75rem;
+        margin-bottom: 0.5rem;
+    }
+    .fz-product-prize {
+        gap: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+    .fz-product-prize-bold {
+        font-size: 2rem;
+        line-height: 1.438rem;
+    }
+    .fz-product-prize-cut {
+        font-size: 1.25rem;
+        line-height: 0.875rem;
+    }
+    /* -------------------------------HOME CRAFT STYLES STARTS HERE------------------------------- */
+    .fz-home-craft-section {
+        margin-bottom: 7.5rem;
+    }
+    .fz-home-craft-section > p {
+        font-size: 2.5rem;
+        line-height: 3.75rem;
+        max-width: 66.813rem;
+        margin: 0 auto 7.5rem;
+    }
+    .fz-home-craft-items {
+        grid-template-columns: 39.375rem auto auto;
+        grid-gap: 1.25rem;
+    }
+    .fz-home-craft-item {
+        width: 100%;
+        height: 44.75rem;
+    }
+    .fz-home-craft-item h2 {
+        font-size: 2.75rem;
+        line-height: 4.125rem;
+        left: 2.125rem;
+        bottom: 0;
+        transform: rotate(-90deg);
+    }
+    .fz-home-craft-item img {
+        object-position: bottom;
+    }
+    /* -------------------------------HOME CRAFT STYLES STARTS HERE------------------------------- */
+    .fz-home-card-grp {
+        grid-template-columns: 31rem 31rem 31rem;
+        grid-gap: 2.5rem;
+        margin-bottom: 7.5rem;
+    }
+    .fz-home-card {
+        position: relative;
+        height: 17.438rem;
+    }
+    .fz-home-card:nth-child(1) {
+        padding: 1.438rem 13.25rem 6.5rem 2.5rem;
+    }
+    .fz-home-card:nth-child(2) {
+        padding: 1.813rem 2.813rem 11.063rem 2.75rem;
+    }
+    .fz-home-card:nth-child(3) {
+        padding: 2.063rem 10.75rem 10.125rem 2.188rem;
+    }
+    .fz-home-card:nth-child(1) h2 {
+        font-size: 1.75rem;
+        line-height: 2.625rem;
+        margin-bottom: 0.5rem;
+    }
+    .fz-home-card:nth-child(2) h2 {
+        font-size: 1.625rem;
+        line-height: 2.438rem;   
+        text-align: center;
+        margin-bottom: 0.25rem;
+    }
+    .fz-home-card:nth-child(3) h2 {
+        font-size: 1.75rem;
+        line-height: 2.625rem;
+        margin-bottom: 0;
+    }
+    .fz-home-card p {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        margin-bottom: 0;
+    }
+    .fz-home-card:nth-child(2) p {
+        text-align: center;        
+    }
+    .fz-home-card > img {
+        margin: 0;
+        display: inline-block;
+        position: absolute;
+    }
+    .fz-home-card:nth-child(1) > img {
+        width: 13.625rem;
+        height: 100%;
+        top: 0;
+        right: 0;
+    }
+    .fz-home-card:nth-child(2) > img {
+        width: 20.125rem;
+        height: 20.125rem;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        bottom: -6.938rem;
+    }
+    .fz-home-card:nth-child(3) > img {
+        width: 21.977rem;
+        height: 21.977rem;
+        transform: rotate(15deg);
+        top: 2.469rem;
+        right: -2.759rem;
+    }
+    .fz-home-card:nth-child(3) .fz-badge {
+        left: 2.372rem;
+        top: 7.809rem;       
+    }
+    /* -------------------------------HOME WHY STYLES STARTS HERE------------------------------- */
+    section.fz-home-why-section {
+        padding: 2.5rem 2.313rem;
+        margin-bottom: 7.5rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 4.375rem;
+    }
+    .fz-home-why-card {
+        gap: 2.25rem;
+    }
+    .fz-home-why-card img {
+        width: 5.5rem;
+        height: 5.5rem;
+        min-width: 5.5rem;
+    }
+    .fz-home-why-card h2 {
+        font-size: 1.75rem;
+        line-height: 2.625rem;
+        margin-bottom: 0.75rem;
+        white-space: nowrap;
+    }
+    .fz-home-why-card p {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+    /* -------------------------------PRODUCT ARCHIVE STYLES STARTS HERE------------------------------- */
+    .fz-pa-grid-wrap {
+        margin-bottom: 5rem;
+    }
+    .fz-pa-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 3.75rem;
+        grid-row-gap: 6.25rem;
+        margin-bottom: 5rem;
+    }
+    section.fz-pa-header {
+        margin-top: 1.25rem;
+        grid-template-columns: 18.125rem auto;
+        grid-gap: 5.625rem;
+        margin-bottom: 2.5rem;
+    }
+    .fz-pa-header-title h1 {
+        font-size: 3rem;
+        line-height: 4.5rem;
+        margin-bottom: 0.625rem;
+    }
+    .fz-pa-header-breadcrumb {
+        gap: 0.219rem;
+    }
+    .fz-pa-header-breadcrumb a, .fz-pa-header-breadcrumb span {
+        font-size: 1.125rem;
+        line-height: 1.688rem;
+    }
+    .fz-pa-header-items {
+        justify-content: flex-end;
+        gap: 2.5rem;
+        align-items: center;
+    }
+    .fz-pa-header-sort-items {
+        flex-wrap: nowrap;
+        gap: 2.5rem;
+    }
+    .fz-pa-header-sort-items p {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+    .fz-pa-header-sort {
+        flex-direction: row;
+        gap: 2.5rem;
+        align-items: center;
+        white-space: nowrap;
+    }
+    .fz-pa-header-filter {
+        padding: 1rem 3.281rem 1rem 3.531rem;
+        gap: 0.875rem;
+    }
+    .fz-pa-header-filter p {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        white-space: nowrap;
+    }
+    .fz-pa-header-filter svg {
+        width: 1.75rem;    
+        height: 1.75rem;
+    }
+    .fz-pa-header-sort-title {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+    /* -------------------------------ABOUT STYLES STARTS HERE------------------------------- */
+    section.fx-about-hero-grp {
+        grid-template-columns: 63.125rem 26.25rem;
+        grid-gap: 4.875rem;
+        margin-top: 2.5rem;
+        margin-bottom: 3.438rem;
+    }
+    .fx-about-hero-grp  .fz-pa-header-title {
+        margin-bottom: 2.5rem;
+    }
+    .fx-about-hero-texts {
+        gap: 2.438rem;
+    }
+    .fx-about-hero-texts p {
+        font-size: 1.625rem;
+        line-height: 2.438rem;
+    }
+    .fx-about-hero-imgs {
+        gap: 0;
+    }
+    .fx-about-hero-imgs img {
+        width: 26.25rem;
+        height: 26.25rem;
+    }
+    /* -------------------------------LOGIN STYLES STARTS HERE------------------------------- */
+    section.fz-login-wrap {
+        margin: 0 8.438rem;
+        padding: 9.875rem 0;
+        grid-template-columns: 50rem 30.553rem;
+        grid-gap: 10.625rem;
+        justify-content: center;
+        min-height: 100vh;
+        align-items: center;
+    }
+    .fz-login-img-wrap {
+        width: 50rem;
+        height: 50rem;
+        border-radius: 0 21.25rem;
+        gap: 1.25rem;
+    }
+    .fz-login-wrap.login .fz-login-img-wrap {
+        border-radius: 21.25rem 0 ;    
+    }
+    .fz-login-img-wrap h1 {
+        font-size: 3.5rem;
+        line-height: 5.25rem;
+    }
+    .fz-login-img-wrap p {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        max-width: 28.338rem; 
+    }
+    .fz-login-items-wrap {
+        gap: 1.875rem;
+    }
+    .fz-login-items-btns {
+        gap: 1.25rem;
+    }
+    .fz-login-items-btn {
+        gap: 0.875rem;
+        padding: 1.063rem 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .fz-login-items-btn p {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+    .fz-login-items-btn svg {
+        width: 1.636rem;
+        height: 1.636rem;    
+    }
+    .fz-login-items-or p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        gap: 2rem;
+    }
+    .fz-login-items-form-boxs {
+        gap: 1.875rem;
+        margin-bottom: 1.25rem;
+    }
+    .fz-login-items-form-box {
+        gap: 0.875rem;
+        padding: 1.313rem 1.25rem;
+    }
+    .fz-login-items-form-box svg {
+        width: 1.625rem;
+        height: 1.625rem;    
+    }
+    .fz-login-items-form-box input {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+    .fz-login-items-form-box input::placeholder {
+        font-size: 1.25rem;
+        line-height: 1.875rem; 
+    }
+    .fz-login-items-checkbox {
+        gap: 0.594rem;
+        margin-bottom: 1.875rem;
+    }
+    .fz-login-items-checkbox input {
+        width: 1.219rem;
+        height: 1.219rem;
+    }
+    .fz-login-items-checkbox p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+/* -------------------------------SINGLE PRODUCT STYLES STARTS HERE------------------------------- */
+    .fz-sp-hero-wrap {
+        margin-top: 3.75rem;
+        margin-bottom: 6.25rem;
+        grid-template-columns: 47.625rem 47.75rem;
+        grid-gap: 3.75rem;
+    }
+    .fz-sp-hero-bc {
+        margin-bottom: 1.25rem;
+    }
+    .fz-sp-hero-bc a, .fz-sp-hero-bc span {
+        font-size: 1.125rem;
+        line-height: 1.688rem;
+    }
+    .fz-sp-hero-figure {
+        margin-bottom: 0.625rem;
+        width: 100%;
+        height: 37.25rem;
+    }
+    .fz-sp-hero-figure figure {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 37.25rem;
+        height: 37.25rem;
+    }
+    .fz-sp-hero-thumbs {
+        gap: 1.25rem;
+    }
+    .fz-sp-hero-thumbs img {
+        width: 8.375rem;
+        height: 8.375rem;
+        border: 0.5rem solid #ffffff;
+    }
+    .fz-sp-hero-icons {
+        gap: 0.986rem;
+    }
+    .fz-sp-hero-icons div {
+        width: 3.75rem;
+        height: 3.75rem;
+    }
+    .fz-sp-hero-icons svg {
+        width: 1.875rem;
+        height: auto;
+    }
+    .fz-sp-hero-btns {
+        gap: 1.25rem;
+    }
+    /* Infos */
+    .fz-sp-hero-infos h1 {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-bottom: 0.25rem;
+    }
+    .fz-sp-hero-data .fz-sp-hero-name {
+        font-size: 1.625rem;
+        line-height: 2.438rem;
+        margin-bottom: 0.875rem;
+    }
+    .fz-sp-hero-rating {
+        margin-bottom: 0.875rem;
+    }
+    .fz-sp-hero-rating span {
+        font-size: 1.5rem;
+        line-height: 1.063rem;
+        margin-right: 0.375rem;
+    }
+    .fz-sp-hero-rating svg {
+        width: 1.75rem;
+        height: 1.75rem;   
+        margin-right: 1.5rem; 
+    }
+    .fz-sp-hero-rating p {
+        font-size: 1.5rem;
+        line-height: 1.813rem;
+    }
+    .fz-sp-hero-data .fz-sp-hero-warning {
+        font-size: 1.375rem;
+        line-height: 2.063rem;
+        margin-bottom: 1.875rem; 
+    }
+    .fz-sp-hero-prize {
+        gap: 1.375rem;
+        margin-bottom: 1.875rem;
+    }
+    .fz-sp-hero-prize-new {
+        font-size: 2.813rem;
+        line-height: 2rem;
+    }
+    .fz-sp-hero-prize-old {
+        font-size: 1.5rem;
+        line-height: 1.063rem;
+    }
+    .fz-sp-hero-prize-off {
+        font-size: 1.5rem;
+        line-height: 1.063rem;
+    }
+    .fz-sp-hero-add {
+        gap: 2.5rem;
+        padding: 0.625rem 1.25rem;
+    }
+    .fz-sp-hero-add p {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .fz-sp-hero-infos h2 {
+        font-size: 1.625rem;
+        line-height: 2.438rem;
+        margin-top: 1.875rem;
+        margin-bottom: 0.625rem;
+    }
+    .fz-sp-hero-infos ul {
+        margin-top: 1.875rem;
+        gap: 0.625rem;
+    }
+    .fz-sp-hero-infos ul li {
+        padding-left: 2.5rem;
+        font-size: 1.375rem;
+        line-height: 2.063rem;
+    }
+    .fz-sp-hero-infos  ul li::before {
+        width: 1.5rem;
+        height: 1.5rem;
+        top: 0.281rem ;
+    }
+    /* -------------------------------CART STYLES STARTS HERE------------------------------- */
+    section.fz-cart-hero-wrap {
+        margin-top: 2.5rem;
+        margin-bottom: 3.75rem;
+        grid-template-columns: 64.5rem 31rem;
+        grid-gap: 2.5rem;
+    }
+    .fz-cart-hero-items h1 {
+        font-size: 3rem;
+        line-height: 4.5rem;
+        margin-bottom: 0.625rem;
+    }
+    section.fz-cart-hero-wrap .fz-pa-header-breadcrumb a, section.fz-cart-hero-wrap .fz-pa-header-breadcrumb span {
+        opacity: 80%;
+    }
+    .fz-cart-hero-cards {
+        gap: 1.25rem;
+        margin-top: 1.25rem;
+    }
+    .fz-cart-hero-card {
+        padding: 2.25rem 1.5rem;
+        grid-template-columns: 13.438rem 45rem;
+        gap: 2.281rem;
+        align-items: center;
+    }
+    .fz-cart-hero-card figure {
+        width: 13.438rem;
+        height: 13.438rem;
+    }
+    .fz-cart-hero-card-info h2 {
+        font-size: 1.625rem;
+        line-height: 2.438rem;
+        margin-bottom: 1rem;
+    }
+    .fz-cart-hero-card-info .fz-sp-hero-add {
+        border-width: 0.125rem;
+        margin-bottom: 0.625rem;
+        gap: 0.938rem;
+        padding: 0.625rem 1.25rem;
+        border-radius: 0.625rem;
+    }
+    .fz-cart-hero-card-info .fz-sp-hero-add p {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+    .fz-cart-hero-card-info .fz-sp-hero-prize {
+        margin-bottom: 1;
+    }
+    .fz-cart-hero-card-info .fz-sp-hero-prize-new {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .fz-cart-hero-card-info .fz-sp-hero-prize-old {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+    .fz-cart-hero-card-info .fz-sp-hero-prize-off {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+    .fz-cart-hero-card-btns {
+        flex-direction: row;
+        gap: 1.25rem;
+    }
+    .fz-cart-hero-card-btns button {
+        width: 100%;
+    }
+    /* Checkout */
+    .fz-cart-hero-data-wrap {
+        padding: 1.25rem 1.875rem 1.75rem;
+        margin-bottom: 1.25rem;
+    }
+    .fz-cart-hero-data-wrap h2 {
+        font-size: 1.75rem;
+        line-height: 2.625rem;
+        margin-bottom: 1.5rem;
+    }
+    .fz-cart-hero-data-info {
+        gap: 0.75rem;
+        margin-bottom: 1.875rem;
+    }
+    .fz-cart-hero-data-info > div p {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+    .fz-cart-hero-data-price {
+        font-size: 1.375rem;
+        line-height: 2.063rem;
+    }
+    .fz-cart-hero-data-off {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+    .fz-cart-hero-data-green {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+    .fz-cart-hero-data-sum p {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+    .fz-cart-hero-data-sum span {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+    .fz-cart-hero-datas button {
+        margin-bottom: 2.5rem;
+    }
+    .fz-cart-hero-datas > p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        max-width: 22rem;
+        margin: 0 auto;
+    }
+    /* -------------------------------CART STYLES STARTS HERE------------------------------- */
+    section.fz-pm-wrap {
+        margin-top: 3.75rem;
+        margin-bottom: 1.875rem;
+        grid-template-columns: 56.125rem 39.375rem;
+        grid-gap: 2.5rem;
+    }
+    .fz-pm-wrap-left .fz-cart-hero-card {
+        margin-bottom: 2.5rem;
+    }
+    .fz-pm-wrap-star {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.625rem;
+    }
+    .fz-pm-wrap-star p {
+        margin: 0;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: #000000;
+        margin-right: 0.625rem;
+    }
+    .fz-pm-wrap-star svg {
+        width: 1rem;
+        height: auto;
+    }
+    .fz-pm-wrap-star span {
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: #000000;
+        margin-right: 0.313rem;
+    }
+    .fz-pm-wrap-pd {
+        margin-bottom: 1.625rem;
+    }
+    .fz-pm-wrap-pd h1 {
+        font-size: 1.75rem;
+        line-height: 2.625rem;
+        margin-bottom: 1.25rem;
+    }
+    .fz-pm-wrap-pd-tags {
+        gap: 1.25rem;
+    }
+    .fz-pm-wrap-ad .fz-pm-wrap-ad-title {
+        margin-bottom: 1.25rem;
+    }
+    .fz-pm-wrap-ad-title h2 {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+    .fz-pm-wrap-ad-title span {
+        font-size: 1.125rem;
+        line-height: 1.688rem;
+    }
+    .fz-pm-wrap-ad-data {
+        padding: 1.5rem 18.063rem 3.688rem 1.25rem;
+        gap: 1.75rem;    
+    }
+    .fz-pm-wrap-ad-data h3 {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+    .fz-pm-wrap-ad-data p {
+        font-size: 1.125rem;
+        line-height: 1.688rem;
+    }
+    /* Right */
+    .fz-pm-wrap-right {
+        grid-gap: 2.5rem;
+    }
+    .fz-pm-wrap-pi {
+        padding: 1.5rem 2.5rem;
+    }
+    .fz-pm-wrap-pi h2 {
+        font-size: 1.75rem;
+        line-height: 2.625rem;
+        margin-bottom: 1.25rem;
+    }
+    .fz-pm-wrap-pi-info {
+        gap: 0.75rem;
+        padding-bottom: 1.375rem;
+        margin-bottom: 1.375rem;
+    }
+    .fz-pm-wrap-pi-info > div div {
+        gap: 0.5rem;
+    }
+    .fz-pm-wrap-pi-info p {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+    .fz-pm-wrap-pi-info span {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+    .fz-pm-wrap-pi-info-sub p {
+        font-size: 1.375rem;
+        line-height: 2.063rem;
+    }
+    .fz-pm-wrap-pi-info-sub span {
+        font-size: 1rem;
+        line-height: 1.5rem;  
+    }
+    .fz-pm-wrap-pi-sum p {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+    .fz-pm-wrap-pi-sum span {
+        font-size: 1.75rem;
+        line-height: 2.625rem;
+    }
+    /* Payment */
+    .fz-pm-wrap-pm {
+        padding: 1.875rem 2.625rem;
+    }
+    .fz-pm-wrap-pm h2 {
+        font-size: 1.75rem;
+        line-height: 2.625rem;
+        margin-bottom: 1.875rem;
+    }
+    .fz-pm-wrap-pm-datas {
+        gap: 2.125rem;
+        margin-bottom: 2.125rem;
+    }
+    .fz-pm-wrap-pm-item > div {
+        gap: 1.25rem;
+    }
+    .fz-pm-wrap-pm-item > div p {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+    .fz-pm-wrap-pm-item > div svg {
+        width: 1.5rem;
+    }
+    .fz-pm-wrap-pm-item input {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    /* POPUP */
+    .fz-pm-popup {
+        padding: 3.125rem 6.25rem;
+    }
+    .fz-pm-popup svg {
+        width: 16.25rem;
+        height: 16.25rem;
+        margin-bottom: 3.125rem;
+    }
+    .fz-pm-popup h2 {
+        font-size: 2.5rem;
+        line-height: 3.75rem;
+        margin-bottom: 1.25rem;
+    }
+    .fz-pm-popup p {
+        font-size: 1.5rem;
+        line-height: 2.25rem; 
+        max-width: 31.313rem;
+        margin: 0 auto 3.125rem;
+    }
+    .fz-pm-popup-btns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.25rem;
+    }
+}
