@@ -5,7 +5,7 @@
 }
 @media screen and (min-width: 768px) {
     html {
-    font-size: calc(100vw * 10/1728);
+    font-size: calc(100vw * 16/1728);
     }
     .fz-container {
         max-width: 98rem;
@@ -1087,4 +1087,5 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.25rem;
     }
+
 }
