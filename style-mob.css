@@ -453,7 +453,6 @@ section.fz-home-hero-grp img {
 /* -------------------------------HOME OFFER STYLES STARTS HERE------------------------------- */
 .fz-home-offers-section {
     margin-bottom: 4.375rem;
-    overflow: hidden;
 }
 .fz-home-offers-title {
     display: flex;
@@ -1564,4 +1563,5 @@ input[type="radio"] {
     display: flex;
     flex-direction: column;
     gap: 0.625rem;
+
 }
